@@ -80,7 +80,7 @@ def search_competitions(params):
 
 def watsonx_ai_api(prompt):
     def query_perflexity(query):
-        API_KEY = "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"
+        API_KEY = ""
         messages = [
             {
                 "role": "system",
